@@ -7,7 +7,7 @@ st.header("Hyderabad Home Forecast")
 st.caption('Estimate the price of a home based on Locality and Sqft (2021 data)')
 st.image('bg.png', use_container_width=True)
 
-model = pickle.load(open('D:/hyd_home_price_predict/vercel_home_pred/forest_model.pkl', 'rb'))
+model = pickle.load(open('forest_model.pkl', 'rb'))
 
 areas = [
     "Alkapur Township, Manikonda, Outer Ring Road",
